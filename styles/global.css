@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+
+
+.logo {
+  color: white;
+  text-decoration: none;
+}
+
+.back-button {
+  padding: 12px 32px;
+  margin-top: 32px;
+  border-radius: 7px;
+  width: 100%;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  text-align: center;
+
+  background-color: orange;
+  color: white;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 200px;
+  background-color: purple;
+  color: white;
+  padding: 16px 32px;
+}
