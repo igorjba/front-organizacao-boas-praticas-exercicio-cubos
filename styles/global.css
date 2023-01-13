@@ -19,25 +19,6 @@ body {
   text-decoration: none;
 }
 
-.back-button {
-  padding: 12px 32px;
-  margin-top: 32px;
-  border-radius: 7px;
-  width: 100%;
-
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: left;
-  text-align: center;
-
-  background-color: orange;
-  color: white;
-}
-
-.back-button:hover {
-  opacity: 0.8;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
